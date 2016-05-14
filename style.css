@@ -1,0 +1,50 @@
+body{min-width:1000px;padding:0;margin:0;font-family:"MontSerrat";font-size:14px;background:url(http://www.advoteamcourage.com/wp-content/uploads/2012/12/website-background-2.jpg) repeat fixed 0 0 transparent;color:#FFF;font-family:MontSerrat}
+.header-container{width:100%;background-color:#252525}
+.main-menu-container{height:90px;background:none repeat scroll 0 0 #000;font-family:"MontSerrat";font-size:30px}
+.main-menu-container > ul{list-style:outside none none;height:90px;width:1240px;margin:0 auto}
+.main-menu-container ul > li{position:relative;float:left;height:90px;margin-right:10px}
+.main-menu-container ul > li > a,.main-menu-container ul > li > a:visited{display:block;height:90px;padding:0 10px;line-height:90px;color:#E0E0E0;font-size:16px}
+a{text-decoration:none;color:#FFF}
+.main-menu-container ul.sub-menu{visibility:hidden;opacity:0;position:absolute;left:0;list-style:outside none none;z-index:9999;transition:all .5s ease-in-out 0}
+.main-menu-container ul.sub-menu > li{height:40px;width:150px;float:none!important;background-color:#393939;line-height:40px}
+.main-menu-container ul.sub-menu > li > a{width:140px;height:40px;padding:0 0 0 10px;font-size:10px;line-height:40px;border-top:medium none;border-right:1px solid #000}
+.header-container header{position:relative;width:100%;height:222px;background:#111;display:block}
+.wrapper_size{width:1240px;margin:0 auto}
+.header-container header a.header-logo{float:left;display:block;width:350px;height:122px;margin-top:40px}
+.header-container header .sponsors{float:right;padding-top:49px;padding-right:6px}
+.header-container header .sponsors .carousel{background:transparent;width:800px}
+.header-container header .sponsors .sponsor{height:220px;float:right;padding-top:49px;padding-right:6px}
+img.sponsor{display:inline-block;width:200px;height:100px}
+.page{width:1240px;margin:0 auto;padding:20px 0 30px;background-color:#000;height:880px}
+.main-news{float:left;overflow:hidden;transition:all .3s ease 0}
+.global_post{position:relative}
+.main-news img{opacity:.8;transition:all .3s ease 0}
+.main-news .title_zone{position:absolute;bottom:30px}
+.main-news .category{padding:0 40px;font-size:20px;color:#0CF}
+.main-news .title{display:block;font-family:"Oswald",sans-serif;font-size:35px;text-transform:uppercase;padding:0 40px;line-height:40px}
+.main-slider{width:100%;height:500px;background:url(http://img15.hostingpics.net/pics/855112FakeSlider.png)}
+.firstblock_right{width:410px;float:right;margin-right:6px}
+.secondblock_right{width:410px;margin-right:8px}
+.page-slider{padding-top:20px!important}
+.left-container{float:left;width:820px}
+.right-container{float:right;width:420px}
+.others-news .post{width:368px;height:400px;background:none repeat scroll 0 0 #0B0B0B;border:1px solid #131313;float:left;padding:18px 10px;margin-right:16px;margin-bottom:16px}
+.others-news .post img{margin:12px 0}
+.others-news .post .post-text{color:#737373}
+.others-news .post .category{color:#0CF}
+.others-news .post .title{font-family:"MontSerrat",sans-serif;font-size:19px;color:#FFF;text-transform:uppercase}
+.webtv{width:100%;background:none repeat scroll 0 0 #000}
+.webtv h3{font-family:"Oswald",sans-serif;font-size:29px;color:#FFF;text-transform:uppercase;font-weight:400;text-align:center;margin-bottom:-11px}
+.webtv span.border{height:30px;color:#0CF;display:block;border-bottom:1px solid #0CF}
+.webtv iframe{width:80%;margin-top:20px;height:200px;margin-left:38px}
+.twitter{width:100%;background:none repeat scroll 0 0 #000}
+.twitter h3{font-family:"Oswald",sans-serif;font-size:29px;color:#FFF;text-transform:uppercase;font-weight:400;text-align:center;margin-bottom:-11px}
+.twitter span.border{height:30px;color:#0CF;display:block;border-bottom:1px solid #0CF}
+.holder img{display:inline-block;width:200px;height:100px}
+.carousel{width:830px;height:120px;overflow:hidden;padding:8px;box-sizing:border-box;margin:0 auto;border-radius:5px}
+.holder{width:10000px;animation:carousel 35s linear infinite}
+@keyframes carousel {
+0%{margin-left:0}
+50%{margin-left:-1200px}
+100%{margin-left:0}
+}
