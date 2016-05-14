@@ -1,5 +1,5 @@
 # Team-Gaming-Web-Site
-Team Gaming Web Site HTML
+Team Gaming Web Site HTML : http://kazerog.github.io/Team-Gaming-Web-Site/
 
 A Pen created at CodePen.io. 
 
